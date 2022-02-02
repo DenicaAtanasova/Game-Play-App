@@ -1,23 +1,25 @@
 import Header from './components/Header'
 import WelcomeWorld from './components/WelcomeWorld';
-import LoginPage from './components/LoginPage';
-import RegisterPage from './components/RegisterPage';
-import CreatePage from './components/CreatePage';
-import EditPage from './components/EditPage';
+import Login from './components/Login';
+import Register from './components/Register';
+import GameCreate from './components/GameCreate';
+import GameEdit from './components/GameEdit';
 import GameDetails from './components/GameDetails';
-import CatalogPage from './components/CatalogPage';
+import GameCatalog from './components/GameCatalog';
 
 function App() {
   return (
     <div id="box">
       <Header/>
-      <WelcomeWorld/>
-      <LoginPage/>
-      <RegisterPage/>
-      <CreatePage/>
-      <EditPage/>
-      <GameDetails/>
-      <CatalogPage/>
+      <main id="main-content">      
+        <WelcomeWorld/>
+        <Login/>
+        <Register/>
+        <GameCreate/>
+        <GameEdit/>
+        <GameDetails/>
+        <GameCatalog/>
+      </main>
     </div>
   );
 }

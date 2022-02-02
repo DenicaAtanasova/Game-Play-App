@@ -1,4 +1,4 @@
-export default function LoginPage() {
+export default function Login() {
     return(
         <section id="login-page" class="auth">
             <form id="login">
