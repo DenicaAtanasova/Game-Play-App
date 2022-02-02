@@ -1,4 +1,4 @@
-export default function EditPage(){
+export default function GameEdit(){
     return(
         <section id="edit-page" class="auth">
             <form id="edit">

@@ -1,4 +1,4 @@
-export default function RegisterPage(){
+export default function Register(){
     return(
         <section id="register-page" class="content auth">
             <form id="register">
